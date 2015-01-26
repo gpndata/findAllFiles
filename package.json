@@ -1,5 +1,5 @@
 {
-  "name": "findAllFiles",
+  "name": "find-all-files",
   "version": "1.0.0",
   "description": "Asynchronously finds all files in specified directory and returns a promise. Supports file blacklists and does not get confused by symlinks.",
   "main": "index.js",
