@@ -1,0 +1,31 @@
+{
+  "name": "findAllFiles",
+  "version": "1.0.0",
+  "description": "Asynchronously finds all files in specified directory and returns a promise. Supports file blacklists and does not get confused by symlinks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gpndata/findAllFiles"
+  },
+  "keywords": [
+    "files",
+    "promise",
+    "file",
+    "find",
+    "fs",
+    "filesystem",
+    "symlink"
+  ],
+  "author": "Krzysztof \"OhJeez\" Chrapka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpndata/findAllFiles/issues"
+  },
+  "homepage": "https://github.com/gpndata/findAllFiles",
+  "dependencies": {
+    "when": "~3.4.0"
+  }
+}
